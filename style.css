@@ -13,8 +13,7 @@ body{
 }
 #welcome{
     position:absolute;
-    overflow:hidden;
-    background: linear-gradient(purple 1%,aqua);
+    overflow:hidden; 
     left:0;
     top:0;
     bottom:0;
@@ -23,7 +22,8 @@ body{
     width: 100%;
     display: table;
     height:100%;
-    color:cornsilk;    
+    color:cornsilk;
+    background: linear-gradient(purple 1%,aqua);
 }
 .link:hover{
     background-color:cornsilk;
