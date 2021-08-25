@@ -1,0 +1,40 @@
+body{
+    margin:0;
+    padding-top:800px;
+   background: linear-gradient(purple 1%,aqua);
+  text-align : center;
+}
+.profile{
+    width:175px;
+    margin-bottom: 50px;
+    border-radius: 50%;   
+}
+#name{
+    font-family: 'Rampart One', cursive;
+}
+#welcome{
+    position:absolute;
+    overflow:hidden;
+    left:0;
+    top:0;
+    bottom:0;
+    right:0;
+    height:800px;
+    width: 100%;
+    display: table;
+    height:100%;
+    color:cornsilk;    
+}
+.link:hover{
+    background-color:cornsilk;
+}
+.menu {
+    list-style: none;
+    font-family: sans-serif;
+    position:absolute;
+    top:10px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 99;
+    color:black
+}
