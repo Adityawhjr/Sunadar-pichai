@@ -1,7 +1,6 @@
 body{
     margin:0;
     padding-top:800px;
-   background: linear-gradient(purple 1%,aqua);
   text-align : center;
 }
 .profile{
@@ -15,6 +14,7 @@ body{
 #welcome{
     position:absolute;
     overflow:hidden;
+    background: linear-gradient(purple 1%,aqua);
     left:0;
     top:0;
     bottom:0;
