@@ -1,19 +1,19 @@
 body{
     margin:0;
     padding-top:800px;
-  text-align : center;
+    text-align: center;
 }
-.profile{
-    width:175px;
-    margin-bottom: 50px;
-    border-radius: 50%;   
+.profile {
+    width: 175px;
+    border-radius: 50%;
+    height: 200px; 
 }
 #name{
     font-family: 'Rampart One', cursive;
 }
 #welcome{
     position:absolute;
-    overflow:hidden; 
+    overflow:hidden;
     left:0;
     top:0;
     bottom:0;
@@ -21,13 +21,29 @@ body{
     height:800px;
     width: 100%;
     display: table;
+    background: linear-gradient(purple 0%,cyan 100%);
     height:100%;
     color:cornsilk;
-    background: linear-gradient(purple 1%,aqua);
+    z-index: 1;
 }
-.link:hover{
-    background-color:cornsilk;
+.para-inner{
+    display:table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align:middle;
 }
+.links {
+    float: left;
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+background-color: cornsilk;
+}
+.links:hover 
+{background-color:dodgerblue;}
+
 .menu {
     list-style: none;
     font-family: sans-serif;
@@ -36,5 +52,12 @@ body{
     right: 30px;
     cursor: pointer;
     z-index: 99;
-    color:black
 }
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+    
+}
+#Contact
