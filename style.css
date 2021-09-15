@@ -60,4 +60,27 @@ background-color: cornsilk;
     margin: 8px auto;
     
 }
-#Contact
+img {
+    height:350px;
+    width:400px;
+    margin: 5px;
+}
+img:hover{
+    transform: scale(0.9);
+}
+img {
+    transition: transform 0.2s;
+    margin: 5px;
+}
+#responsibility{
+    background-color: orange;
+}
+#videos {
+    background-color: greenyellow;
+}
+#work {
+    background-color:lime;
+}
+#contact {
+    background-color: cyan;
+}
