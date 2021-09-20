@@ -12,7 +12,7 @@ body{
     font-family: 'Rampart One', cursive;
 }
 #welcome{
-    position:absolute;
+     position:absolute;
     overflow:hidden;
     left:0;
     top:0;
@@ -21,7 +21,7 @@ body{
     height:800px;
     width: 100%;
     display: table;
-    background: linear-gradient(purple 0%,cyan 100%);
+    background: linear-gradient(purple,cyan);
     height:100%;
     color:cornsilk;
     z-index: 1;
@@ -33,25 +33,27 @@ body{
     vertical-align:middle;
 }
 .links {
-    float: left;
-    color: black;
+    display:inline;
+    color: white;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 9px;
+    background-color: cornsilk;
     padding-right: 9px;
+}
 background-color: cornsilk;
 }
 .links:hover 
 {background-color:dodgerblue;}
-
 .menu {
-    list-style: none;
     font-family: sans-serif;
-    position:absolute;
-    top:10px;
-    right: 30px;
+    position:fixed;
+    top:0px;
+    margin-top: 0px;
     cursor: pointer;
     z-index: 99;
+    background-color: white;
+    width: 100%;
 }
 .line {
     height: 6px;
@@ -83,4 +85,21 @@ img {
 }
 #contact {
     background-color: cyan;
+}
+html {
+    scroll-behavior: smooth;
+}
+.links a{
+    text-decoration: none;
+    color: crimson;
+    text-shadow: 2px 2px gray;
+    font-family: 'Rampart One', cursive;
+}
+.links:hover {
+    background-color:lightskyblue;
+    font-size: 25px;
+    text-decoration: underline;
+}
+#contact_1 h3 {
+    display: inline;
 }
